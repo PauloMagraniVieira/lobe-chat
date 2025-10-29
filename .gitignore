@@ -118,3 +118,16 @@ CLAUDE.local.md
 prd
 GEMINI.md
 e2e/reports
+
+# Cloudflare Pages Optimization
+/Dockerfile
+/Dockerfile.database
+/Dockerfile.pglite
+/docker-compose.development.yml
+/docker-compose/
+/apps/desktop/
+/e2e/
+/tests/
+/packages/electron-client-ipc/
+/packages/electron-server-ipc/
+/packages/prompts/

@@ -22,7 +22,7 @@ const standaloneConfig: NextConfig = {
 const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX;
 
 const nextConfig: NextConfig = {
-  ...(isStandaloneMode ? standaloneConfig : {}),
+  ...standaloneConfig,
   assetPrefix,
   compiler: {
     emotion: true,
