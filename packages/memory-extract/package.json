@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "@lobechat/model-runtime": "workspace:*",
-    "@lobechat/prompts": "workspace:*",
     "dotenv": "^16.4.7",
     "ora": "^8.2.0"
   },
